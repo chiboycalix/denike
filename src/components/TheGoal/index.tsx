@@ -11,7 +11,7 @@ interface Iprops {
 
 const TheGoal = ({ bgColor, goals, title, titleColor }: Iprops) => {
   return (
-    <Box bgColor={bgColor} pt="5rem" pb="5rem">
+    <Box bgColor={bgColor} py="3rem">
       <Container maxW="container.xl">
         <Text color={titleColor}>{title}</Text>
         <UnorderedList color="white">

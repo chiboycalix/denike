@@ -5,3 +5,7 @@ export { default as PageBanner } from './PageBanner';
 export { default as BannerImage } from './BannerImage';
 export { default as Background } from './Background';
 export { default as TheGoal } from './TheGoal';
+export { default as Title } from './Title';
+export { default as UsersInterview } from './UsersInterview';
+export { default as InterviewCard } from './InterviewCard';
+export { default as InsightsCard } from './InsightsCard';

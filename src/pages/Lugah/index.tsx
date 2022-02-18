@@ -1,7 +1,15 @@
 /** @format */
 
 import { Box, Container } from '@chakra-ui/react';
-import { PageBanner, BannerImage, Background, TheGoal } from '../../components';
+import {
+  PageBanner,
+  BannerImage,
+  Background,
+  TheGoal,
+  UsersInterview,
+} from '../../components';
+import Research from './Research';
+import Insights from './Insights';
 import LugahBgImg from '../../assets/img/lugahBgImg.svg';
 
 const Lugah = () => {
@@ -35,6 +43,12 @@ const Lugah = () => {
         titleColor="#FB8500"
         title="The Goal"
       />
+      <Research />
+      <UsersInterview
+        bgColor="#FFF3E6"
+        insights="I started seeking out answers to questions related to customer use of mobile banking services by interviewing 3 users that were available at the time"
+      />
+      <Insights />
     </Box>
   );
 };

@@ -1,11 +1,13 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import {
   ChakraProvider,
-  theme,
+  // theme,
   Container
 } from "@chakra-ui/react";
 import { Footer, Header } from './components';
 import { Home, Lugah, AgentBook, Esquity, XCEL, Grocerist, MobileAB } from './pages';
+import './styles.css';
+import theme from './theme'
 
 export const App = () => (
   <ChakraProvider theme={theme}>
