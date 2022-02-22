@@ -20,7 +20,7 @@ const InsightsCard = ({ cardImg, cardTitle, cardDescriptions }: IProps) => {
         <UnorderedList>
           {cardDescriptions.map((cardDescription) => {
             return (
-              <ListItem mb="1rem">
+              <ListItem mb="1rem" color="black">
                 {cardDescription}
               </ListItem>
             );

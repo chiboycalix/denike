@@ -1,25 +1,29 @@
 /** @format */
 
-import { Box, Container, Text, Flex } from '@chakra-ui/react';
-import { InsightsCard } from '../../../components';
+import { Box, Text, Flex } from '@chakra-ui/react';
+import { InsightsCard,Container } from '../../../components';
 import BotImg from '../../../assets/img/botImg.svg';
 import TaskImg from '../../../assets/img/taskImg.svg';
 
 const Insights = () => {
   return (
-    <Box py="3rem">
-      <Container maxW="container.xl">
-        <Text fontSize="32px" fontWeight="bold">
+    <Box py="3rem" bg="#f0f0f0">
+      <Container>
+        <Text fontSize="32px" fontWeight="bold" color="black">
           Findings and Insights
         </Text>
-        <Text>
+        <Text color="black">
           After speaking to some users and doing my online research, and
           analyzing the gathered information from the online research and user
           interviews, to help have a linear direction, I categorized the
           insights into these 2 categories.
         </Text>
 
-        <Flex mt="3rem" justifyContent="space-between" alignItems="flex-start" gap="5rem">
+        <Flex
+          mt="3rem"
+          justifyContent="space-between"
+          alignItems="flex-start"
+          gap="5rem">
           <InsightsCard
             cardImg={BotImg}
             cardTitle="Interface Design and Bot experience"

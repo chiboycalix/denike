@@ -1,6 +1,7 @@
 import { Interview } from '../../interfaces';
 import { Image } from '@chakra-ui/react';
-import { Box, Flex, Text, Container } from '@chakra-ui/react';
+import { Box, Flex, Text } from '@chakra-ui/react';
+import { Container } from '../../components';
 
 interface IProps {
   interview: Interview;
@@ -14,7 +15,7 @@ const InterviewCard = ({ interview }: IProps) => {
       mb="2rem"
       py="2rem"
       px="5rem">
-      <Container maxW="container.lg">
+      <Container>
         <Flex d-flex justifyContent="space-between">
           <Box flexBasis="30%">
             <Image src={interview.img} />

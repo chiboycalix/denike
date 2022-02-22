@@ -1,13 +1,18 @@
 /** @format */
 
-import { Box, Container } from '@chakra-ui/react';
-import { PageBanner, BannerImage, Background } from '../../components';
+import { Box } from '@chakra-ui/react';
+import {
+  PageBanner,
+  BannerImage,
+  Background,
+  Container,
+} from '../../components';
 import AgentBookBgImg from '../../assets/img/agentbookbgImg.svg';
 
 const AgentBook = () => {
   return (
     <Box>
-      <Container maxW="container.xl">
+      <Container >
         <PageBanner
           pageName="AgentBook"
           appType="Mobile & Web App"

@@ -1,10 +1,9 @@
 import {
   Box,
-  Container,
   Text,
 } from '@chakra-ui/react';
 import React from 'react';
-import { InterviewCard } from '../../components';
+import { InterviewCard, Container } from '../../components';
 import { interviews } from '../../utils/interviews';
 import { Interview } from '../../interfaces';
 interface IProps {
@@ -15,7 +14,7 @@ const UsersInterview = ({ bgColor, insights }: IProps) => {
   const { lugahInterviews } = interviews;
   return (
     <Box bgColor={bgColor} py="3rem">
-      <Container maxW="container.xl">
+      <Container>
         <Box mb="3rem">
           <Text color="#FB8500" textTransform="uppercase" fontSize="14px">
             Personas

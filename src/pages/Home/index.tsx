@@ -1,5 +1,6 @@
-import { Box, Text, Flex, Image, Container } from '@chakra-ui/react';
-import {Link} from 'react-router-dom'
+import { Box, Text, Flex, Image } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
+import { Container } from '../../components';
 import Lugah from '../../assets/img/Lugah.svg';
 import AgentBook from '../../assets/img/AgentBook-W.svg';
 import Esquity from '../../assets/img/Esquity.svg';
@@ -11,7 +12,7 @@ import XCEL from '../../assets/img/XCEL.svg';
 const Home = () => {
   
   return (
-    <Container maxW="container.xl">
+    <Container>
       <Box w="100%">
         <Box w="60%" mt="5rem">
           <Text

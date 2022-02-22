@@ -9,3 +9,4 @@ export { default as Title } from './Title';
 export { default as UsersInterview } from './UsersInterview';
 export { default as InterviewCard } from './InterviewCard';
 export { default as InsightsCard } from './InsightsCard';
+export { default as Container } from './Container';

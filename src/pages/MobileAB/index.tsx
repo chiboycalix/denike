@@ -1,13 +1,18 @@
 /** @format */
 
-import { Box, Container } from '@chakra-ui/react';
-import { PageBanner, BannerImage, Background } from '../../components';
+import { Box } from '@chakra-ui/react';
+import {
+  PageBanner,
+  BannerImage,
+  Background,
+  Container,
+} from '../../components';
 import MobileAbBgImg from '../../assets/img/mobileAbBgImg.svg';
 
 const MobileAB = () => {
   return (
     <Box>
-      <Container maxW="container.xl">
+      <Container>
         <PageBanner
           pageName="MobileAB"
           appType="iOS Application"

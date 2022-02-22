@@ -1,21 +1,25 @@
 /** @format */
 
-import { Box, Container } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import {
   PageBanner,
   BannerImage,
   Background,
   TheGoal,
   UsersInterview,
+  Container,
 } from '../../components';
 import Research from './Research';
 import Insights from './Insights';
+import MinimumViableProduct from './MinimumViableProduct';
+import StructuringUserFlow from './StructuringUserFlow';
+import ProductPlanning from './ProductPlanning';
 import LugahBgImg from '../../assets/img/lugahBgImg.svg';
 
 const Lugah = () => {
   return (
     <Box>
-      <Container maxW="container.xl">
+      <Container>
         <PageBanner
           pageName="Lugah"
           appType="Mobile & Web App"
@@ -49,6 +53,9 @@ const Lugah = () => {
         insights="I started seeking out answers to questions related to customer use of mobile banking services by interviewing 3 users that were available at the time"
       />
       <Insights />
+      <ProductPlanning />
+      <MinimumViableProduct />
+      <StructuringUserFlow />
     </Box>
   );
 };

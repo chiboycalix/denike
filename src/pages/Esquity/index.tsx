@@ -1,13 +1,18 @@
 /** @format */
 
-import { Box, Container } from '@chakra-ui/react';
-import { PageBanner, BannerImage, Background } from '../../components';
+import { Box } from '@chakra-ui/react';
+import {
+  PageBanner,
+  BannerImage,
+  Background,
+  Container,
+} from '../../components';
 import EsquityBgImg from '../../assets/img/esquityBgImg.svg';
 
 const Esquity = () => {
   return (
     <Box>
-      <Container maxW="container.xl">
+      <Container>
         <PageBanner
           pageName="Esquity"
           appType="Web Application"

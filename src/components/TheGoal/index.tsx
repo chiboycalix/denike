@@ -1,7 +1,7 @@
 /** @format */
 
-import { Box, Text, Container, UnorderedList, ListItem } from '@chakra-ui/react';
-
+import { Box, Text, UnorderedList, ListItem } from '@chakra-ui/react';
+import { Container } from '../../components';
 interface Iprops {
   bgColor: string;
   goals: string[];
@@ -12,7 +12,7 @@ interface Iprops {
 const TheGoal = ({ bgColor, goals, title, titleColor }: Iprops) => {
   return (
     <Box bgColor={bgColor} py="3rem">
-      <Container maxW="container.xl">
+      <Container>
         <Text color={titleColor}>{title}</Text>
         <UnorderedList color="white">
           {goals.map((goal) => {

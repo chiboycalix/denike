@@ -2,17 +2,16 @@
 
 import {
   Box,
-  Container,
   Text,
   UnorderedList,
   ListItem,
 } from '@chakra-ui/react';
-import { Title } from '../../../components';
+import { Title, Container } from '../../../components';
 
 const Research = () => {
   return (
-    <Box>
-      <Container maxW="container.xl" py="3rem">
+    <Box py="3rem">
+      <Container>
         <Title title="Research and User Interviews" />
         <Text width="55%">
           Being my first time working on conversational interfaces and to set

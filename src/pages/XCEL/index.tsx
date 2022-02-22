@@ -1,13 +1,18 @@
 /** @format */
 
-import { Box, Container } from '@chakra-ui/react';
-import { PageBanner, BannerImage, Background } from '../../components';
+import { Box } from '@chakra-ui/react';
+import {
+  PageBanner,
+  BannerImage,
+  Background,
+  Container,
+} from '../../components';
 import XcelBgImg from '../../assets/img/xcelBgImg.svg';
 
 const XCEL = () => {
   return (
     <Box>
-      <Container maxW="container.xl">
+      <Container>
         <PageBanner
           pageName="XCEL Business"
           appType="iOS & Android Application"

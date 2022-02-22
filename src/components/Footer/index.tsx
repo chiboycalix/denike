@@ -1,11 +1,12 @@
-import { Box, Container, Text, Flex } from '@chakra-ui/react';
+import { Box, Text, Flex } from '@chakra-ui/react';
 import { Icon } from '@chakra-ui/react';
 import { SiGithub, SiLinkedin } from 'react-icons/all';
+import { Container } from '../../components';
 
 const Footer = () => {
   return (
-    <Box bg="#0C0D10" w="100%" mt="10rem">
-      <Container maxW="container.xl" pt="5rem" pb="3rem">
+    <Box bg="#0C0D10" w="100%" mt="10rem" pt="5rem" pb="3rem">
+      <Container>
         <Box mb="1rem">
           <Text color="#DECCCC" fontSize="32px" lineHeight="150%">
             afonja.adenikeo@gmail.com
